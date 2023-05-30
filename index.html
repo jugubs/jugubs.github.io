@@ -7,6 +7,13 @@
 	<title>Document</title>
 
 	<style>
+		#screen{
+			margin-right: auto;
+			margin-left: auto;
+			padding-left: 0.5rem;
+			padding-right: 0.5rem;
+			display: block;
+		}
 		.logo{
 			position: fixed;
 			padding-left: 34px;
@@ -25,6 +32,7 @@
 			display: inline-block;
 			padding-top: 20px;
 			padding-left: 20px;
+			padding-right: 20px;
 			list-style: none;
 		}
 		a {
@@ -44,14 +52,22 @@
 			opacity: 100%;
 			text-decoration: none;
 			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
-		h1{
-			position: absolute;
-			left: 580px;
-			top: 280px;
-			color: ghostwhite;
-			z-index: 110%;
+		#home h1{
+				position: absolute;
+				left: 580px;
+				top: 280px;
+				color: ghostwhite;
+				}
+		#about h1{
+			position: rel;
+			text-align: center;
+		}
+		h2{
+			text-align: center;
 		}
 
 		h3{
@@ -61,20 +77,73 @@
 			color: ghostwhite;
 			z-index: 110%;
 		}
-		
 
+		p{
+			text-align: center;
+			padding-left: 102px;
+			padding-right: 102px;
+		}
 
+		#home{
+			background-color: black;
+			padding-right: 20px;
+		}
+		#about{
+			background-color: black;
+			color: white;
+			padding-top: 1px;
+			padding-right: 20px;
+
+		}
+		#about img {
+					position: relative;
+					padding-left: 570px;
+		}
+		#about table img{
+			text-align: center;
+			padding-left: 210px;
+		}
+
+		#about table p{
+			text-align: center;
+			padding-left: 180px;
+		}
+		#top_project{
+			color: white;
+			text-align: center;
+			padding-top: 10px;
+			padding-bottom: 40px;
+			padding-right: 20px;
+			background-color: black;
+		}
+		#top_project img{
+			height: 300px;
+			width: 200px;
+			padding-left: 10px;
+		}
+		#top_project table{
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#contact{
+			color: white;
+			text-align: center;
+			padding-top: 10px;
+			padding-bottom: 40px;
+			padding-right: 20px;
+			background-color: black;
+		}
 
 	</style>
 
 
 	<nav>
 		<ul>
-			<div class="logo"  ><img src="logo.png" height="45" width="60" alt="">	</div>
-			<div class="jugubs"> <h4>JUGUBS</h4> </div>
+			<div class="logo"  ><img src="logo.png "height="45" width="60" alt=""></div>
+			<div class="jugubs"> <h4><a href="#home">JUGUBS</a> </h4> </div>
 			<li><a href="#home">Home</a></li>
 			<li><a  href="#about">About</a></li>
-			<li><a  href="#project">Project</a></li>
+			<li><a  href="#top_project">Project</a></li>
 			<li><a  href="#contact">Contact</a></li>
 		</ul>
 	</nav>
@@ -82,13 +151,51 @@
 	
 </head>
 <body>
+	<div id="screen">
 		<div id="home">
-			<img src="bfigma.jpg" height="768px" width="1466px" alt="">
+			<img src="bfigma.jpg" height="760px" width="1310px" alt="">
 			<h1>Julianus Gunapm Basaho</h1>
 			<h3>Photografer</h3>
 		</div>
 		<div id="about">
-
+			<h1 style="color: yellow;">about</h1>
+			<img src="IMG_20230101_060419_140.jpg" height="267px" width="180px" alt="">
+			<h2>Julianus Gunapm Basaho</h2>
+			<p>
+				My name is Julian Gunapm Basaho, from Pontianak, Indonesia.  I think Photography is all about seeing the world with new eyes. I strive to create unique compositions, beautiful lighting, and capture priceless moments. and In each photo, I try to tell an interesting story. I believe that images can inspire, move feelings, and convey deep messages
+			</p>
+			<table>
+				<tr>
+					<td><img src="email.png" alt=""></td>
+					<td><img src="ig.png" alt=""></td>
+					<td><img src="wa.png" alt=""></td>
+				</tr>
+				<tr>
+					<td><p><a href="https://mail.google.com/mail/u/0/#inbox">julianus@gmail.com</a></p></td>
+					<td><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://instagram.com/jugubs?igshid=MzNlNGNkZWQ4Mg==">@jugubs</a></p></td>
+					<td><p>&nbsp;&nbsp;&nbsp;&nbsp;0831-2599-0830</p></td>
+				</tr>
+			</table>			
 		</div>
+		<div id="top_project">
+			<table style="position: relative; text-align: center;">
+				<tr>
+					<td colspan="5"><h1 style="color: yellow;">Top Project</h1>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="Rectangle 2.png" alt=""></td>
+					<td><img src="Rectangle 4.png" alt=""></td>
+					<td><img src="Rectangle 5.png" alt=""></td>
+					<td><img src="Rectangle 17.png" alt=""></td>
+					<td><img src="Rectangle 18.png" alt=""></td>
+				</tr>
+			</table>
+		</div>
+		<div id="contact">
+			<h1 style="color: yellow;">Contact</h1>
+		</div>
+	</div>
+
 </body>
 </html>
