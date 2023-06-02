@@ -7,6 +7,12 @@
 	<title>Document</title>
 
 	<style>
+		html{
+			scroll-behavior: smooth;
+			background-color: black;
+		}
+
+
 		#screen{
 			margin-right: auto;
 			margin-left: auto;
@@ -54,11 +60,12 @@
 			text-align: center;
 			margin-left: auto;
 			margin-right: auto;
+			width: 100%;
 		}
 
 		#home h1{
 				position: absolute;
-				left: 580px;
+				left: 500px;
 				top: 280px;
 				color: ghostwhite;
 				}
@@ -72,7 +79,7 @@
 
 		h3{
 			position: absolute;
-			left: 700px;
+			left: 635px;
 			top: 325px;
 			color: ghostwhite;
 			z-index: 110%;
@@ -86,7 +93,7 @@
 
 		#home{
 			background-color: black;
-			padding-right: 20px;
+		
 		}
 		#about{
 			background-color: black;
@@ -153,7 +160,10 @@
 <body>
 	<div id="screen">
 		<div id="home">
-			<img src="bfigma.jpg" height="760px" width="1310px" alt="">
+			<div class="bfigma">
+				<img src="bfigma.jpg" height="760px" width="1350px" alt="">
+			</div>
+			
 			<h1>Julianus Gunapm Basaho</h1>
 			<h3>Photografer</h3>
 		</div>
