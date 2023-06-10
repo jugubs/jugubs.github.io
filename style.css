@@ -1,0 +1,344 @@
+body{
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.logo{
+    position: fixed;
+    padding-left: 34px;
+    padding-top: 5px;
+    
+}
+
+.logo1{
+    transition: all .2s ease-in-out;
+
+}
+
+.logo1:hover{
+    translate: 15px;
+}
+
+.jugubs{
+    position: fixed;
+    padding-left: 94px;
+    padding-top: 0px;
+    color: rgb(255, 255, 255);
+    transition: all .2s ease-in-out;
+}
+
+.jugubs:hover{
+    translate: 15px;
+}
+
+li {
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+    
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 12;
+    
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 1920px;
+    height: 80px;
+    z-index: 2;
+    background-color: rgb(32, 27, 27);
+    opacity: 100%;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#home{
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.123)10%, rgba(0,0,0,0.123)10%), url(image/bfigma.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+
+#home h1{
+    font-size: 50px;
+    position: absolute;
+    left: 450px;
+    top: 230px;
+    color: ghostwhite;
+    }
+
+h3{
+    font-size: 30px;
+    position: absolute;
+    left: 650px;
+    top: 300px;
+    color: gold;
+    z-index: 110%;
+}
+
+
+#about{
+    height: 100vh;
+    background: #000000;
+}
+
+#project{
+    height: 100vh;
+    background: #000000;
+}
+
+#Contact{
+    height: 100vh;
+    background: #000000;
+}
+
+.profile1{
+    
+    position: absolute;
+    left: 15%;
+    margin-top: 2.5%;
+  }
+
+#about h1{
+    position: rel;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+}  
+
+
+.intro {
+    color: #FFFFFF;
+    font-size: 25px;
+    padding-left: 40%;
+    padding-top: 10%;
+}   
+
+.namee{
+    color: #b70000;
+    font-size: 30px;
+    padding-left: 40%;
+    padding-top: 300px;
+}
+
+
+.Project h1{
+    position: rel;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 50px;
+}  
+
+#Contact h1{
+    position: rel;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 50px;
+}
+
+/* #Project{ 
+    color: rgb(174, 241, 4);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+#project img{
+    height: 300px;
+    width: 200px;
+    padding-left: 10px;
+}
+#project table{
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.rectangle-group {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 68px;
+  }
+  .frame-child4,
+  .rectangle-icon {
+    position: relative;
+    width: 216px;
+    height: 384px;
+    object-fit: cover;
+  }
+  .frame-child4 {
+    width: 216px;
+  }
+  .rectangle-container {
+    position: absolute;
+    top: 1900px;
+    left: 343px;
+    width: 755px;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 54px;
+    
+  }
+  .rectangle-parent {
+    position: relative;
+    width: 100%;
+    height: 3336px;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-kaisei-harunoumi);
+  }
+
+  
+
+
+
+
+html{
+background-color: #000000;
+scroll-behavior: smooth;
+}   
+
+
+
+.message{
+height: 250px;
+width: 500px;
+overflow-x: hidden;
+}
+
+.kontak{
+display: inline-block;
+position: relative;
+left: 34%;
+padding-top: 0%;
+}
+
+input{
+border-radius: 10px;
+background: #FFFFFF;
+height: 50px;
+width: 500px;
+margin: -0.5%;
+}
+
+textarea{
+border-radius: 10px;
+background: #FFFFFF;
+margin-top: 1%;
+}
+
+.btsend{
+position: relative;
+left: 55%;
+transform: translate(-95%,0%);
+margin-top: 1%;
+background-color:  #000000;
+color: #ffffff;
+padding: 5px 20px;
+border: 2px solid #ffffff;
+border-radius: 20px;
+font-size: 16px;
+font-weight: bolder;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+}
+
+.btsend:hover {
+background-color:#ffffff ;
+color: #000000;
+}
+
+.name::placeholder{
+position: relative;
+left: 2%;
+top: 2%;
+font-size: 15px;
+}
+
+.email::placeholder{
+position: relative;
+left: 2%;
+top: 2%;
+font-size: 15px;
+}
+
+.subject::placeholder{
+    position: relative;
+    left: 2%;
+    top: 2%;
+    font-size: 15px;
+    }
+
+.message::placeholder {
+position: relative;
+left: 2%;
+top: 2%;
+font-size: 16px;
+
+}
+
+.konten4{
+position: absolute;
+left: 9%;
+margin-top: -5%;
+}
+
+.konten4 i{
+/* position: absolute;
+left: 17%;
+top: 346%; */
+height: 45px;
+width: 45px;
+background-color: #000000;
+color: #FFFFFF;
+font-size: 28px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+border-radius: 8px;
+margin-right: 15px;
+transition: all .45s ease;
+}
+
+.konten4 i:hover{
+color: #00000083;
+background-color: #FFFFFF;
+}
+
+
+.container{
+max-width: 1536px;
+margin-right: auto;
+margin-left: auto;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+border: 1px solid rgb(0, 0, 0);
+}
+
+
+footer p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 27, 27);
+    /* width: 1920px; */
+    height: 80px;
+    padding-top: 40px;
+}
