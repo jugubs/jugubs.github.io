@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <title>Document</title>
 
     <nav>
@@ -88,7 +89,8 @@
 
                     <label for="message"></label><br>
                     <textarea class ="message" pattern="[a-z0-9_-]{3,15}$" required placeholder="Write here..."></textarea><br>
-                    <button class="btsend" type="submit">SEND</button>
+                    <button class="btsend" onclick="showAlert()">SEND</button>
+                    <script src="script.js"></script>
                 </form>
             </div>
 </section>
